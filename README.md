@@ -18,7 +18,6 @@
 |  _ \ / _` |/ _` | '_ \ / _ \| '_ \
 | |_) | (_| | (_| | | | | (_) | | | |
 |____/ \__,_|\__,_|_| |_|\___/|_| |_|
-[ cyber portfolio / terminal ready ]
 ```
 
 ## About Me
@@ -42,7 +41,11 @@ pronouns: He/Him
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,py,html,css,cs,cpp&perline=7" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=js,ts,py,html,css&perline=5" alt="Languages" />
+</p>
+<p align="center">
+  Learning:
+  <img src="https://skillicons.dev/icons?i=cs,cpp&perline=2" alt="Learning languages" />
 </p>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux,framer&perline=5" alt="Frontend" />
@@ -82,24 +85,6 @@ pronouns: He/Him
   </tr>
 </table>
 
-
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=badhonvitality&show_icons=true&hide_border=true&bg_color=0B0F1A&title_color=00FF9C&text_color=9EEBFF&icon_color=00E5FF" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=badhonvitality&hide_border=true&background=0B0F1A&ring=00FF9C&fire=00E5FF&currStreakLabel=9EEBFF&sideLabels=9EEBFF&sideNums=9EEBFF&currStreakNum=00FF9C" height="165" alt="GitHub streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=badhonvitality&layout=compact&hide_border=true&bg_color=0B0F1A&title_color=00FF9C&text_color=9EEBFF" height="165" alt="Top languages" />
-</p>
-
-## Contribution Snake Animation
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/badhonvitality/badhonvitality/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
-</p>
-
 ## Education & Achievements
 
 - SSC completed
@@ -117,7 +102,6 @@ pronouns: He/Him
 
 ```text
 [system] status: online
-[system] mode: cyber-portfolio
 [system] signal: secure
 [system] last_sync: ready for new missions
 ```
