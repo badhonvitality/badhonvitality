@@ -65,9 +65,11 @@
   </g>
 
   <!-- Center Content -->
-  <g transform="translate(400, 120)" text-anchor="middle" class="floating">
-    <text y="-10" class="title">Tanjim Rahat Badhon</text>
-    <text y="25" class="subtitle">Full-Stack MERN Developer<tspan class="cursor">_</tspan></text>
+  <g transform="translate(400, 120)" text-anchor="middle">
+    <g class="floating">
+      <text y="-10" class="title">Tanjim Rahat Badhon</text>
+      <text y="25" class="subtitle">Full-Stack MERN Developer<tspan class="cursor">_</tspan></text>
+    </g>
   </g>
 
   <!-- Decorative Corner Corners -->
