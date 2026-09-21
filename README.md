@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Tanjim Rahat Badhon — Full-Stack MERN Developer" />
+<img src="./assets/header-v2.svg" width="100%" alt="Tanjim Rahat Badhon — Full-Stack MERN Developer" />
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="---" />
+<img src="./assets/divider-v2.svg" width="100%" alt="---" />
 
 ## `01` &nbsp;SYSTEM IDENTITY
 
@@ -58,7 +58,7 @@ const badhon: Developer = {
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt="---" />
+<img src="./assets/divider-v2.svg" width="100%" alt="---" />
 
 ## `02` &nbsp;TECH ARSENAL
 
@@ -86,7 +86,7 @@ const badhon: Developer = {
 
 <br/>
 
-<img src="./assets/divider.svg" width="100%" alt="---" />
+<img src="./assets/divider-v2.svg" width="100%" alt="---" />
 
 ## `03` &nbsp;TELEMETRY & STATS
 
