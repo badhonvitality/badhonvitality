@@ -1,70 +1,105 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B0F1A,100:05080F&text=Tanjim%20Rahat%20Badhon&fontSize=50&fontColor=00FF9C&desc=Full%20Stack%20MERN%20Developer&descAlignY=65&descSize=20&descColor=00E5FF&animation=twinkling" alt="Header" />
+
+<img src="./assets/header.svg" width="100%" alt="Tanjim Rahat Badhon — Full-Stack MERN Developer" />
+
+<br/>
+
+<a href="https://github.com/badhonvitality"><img src="https://img.shields.io/badge/GITHUB-05080F?style=flat-square&logo=github&logoColor=00FF9C" alt="GitHub" height="30" /></a>
+<a href="mailto:badhonvitality@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05080F?style=flat-square&logo=gmail&logoColor=00E5FF" alt="Email" height="30" /></a>
+<a href="#"><img src="https://img.shields.io/badge/DISCORD-05080F?style=flat-square&logo=discord&logoColor=00FF9C" alt="Discord" height="30" /></a>
+<img src="https://komarev.com/ghpvc/?username=badhonvitality&label=VISITORS&color=05080F&style=flat-square" alt="Visitors" height="30" />
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1400&color=00E5FF&center=true&vCenter=true&width=750&height=34&lines=Turning+ideas+into+high-performance+web+apps.;Next.js+architect.+MERN+Stack+developer.;Diving+deep+into+AI+and+Machine+Learning." alt="tagline" />
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="---" />
+
+## `01` &nbsp;SYSTEM IDENTITY
+
+```ts
+const badhon: Developer = {
+  role:       "Full-Stack MERN Developer",
+  stack:      ["Next.js", "React", "Node.js", "MongoDB", "Express"],
+  currently:  "Expanding into AI & Machine Learning",
+  learning:   ["Python", "TensorFlow", "C++", "C#"],
+  plan:       "Japan 2026 — AI/ML Vocational Studies",
+  askMeAbout: ["Web Architecture", "Frontend Perf", "MERN Apps"],
+  motto:      "Build it secure. Make it scale. Keep it beautiful.",
+};
+```
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**`▸` CURRENT DIRECTIVES**
+
+```text
+> Architecting production-ready Next.js apps
+> Designing robust RESTful APIs with Node
+> Integrating AI models into web workflows
+```
+
+</td>
+<td width="50%" valign="top">
+
+**`▸` OPEN TO**
+
+```text
+> Full-stack / Frontend collaborations
+> Freelance web development opportunities
+> Open source contributions
+```
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="---" />
+
+## `02` &nbsp;TECH ARSENAL
+
+<div align="center">
+
+**`ARCHITECTURE & INTERFACE`**<br/>
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,redux,framer,html,css&perline=8" alt="Frontend" />
+
+<br/><br/>
+
+**`SERVER & DATABASE`**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,postgres,prisma&perline=8" alt="Backend" />
+
+<br/><br/>
+
+**`AI / ML EXPLORATION`**<br/>
+<img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,opencv&perline=8" alt="AI" />
+
+<br/><br/>
+
+**`DEV ENVIRONMENT`**<br/>
+<img src="https://skillicons.dev/icons?i=js,cs,cpp,git,github,linux,vscode,docker,postman&perline=9" alt="Tools" />
+
+</div>
+
+<br/>
+
+<img src="./assets/divider.svg" width="100%" alt="---" />
+
+## `03` &nbsp;TELEMETRY & STATS
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=badhonvitality&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=badhonvitality&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=500&color=00E5FF&center=true&vCenter=true&width=850&lines=🚀+Hi,+I'm+Badhon;💻+Full+Stack+MERN+Developer;⚙️+Core+Stack:+Next.js+%7C+Node.js+%7C+MongoDB;🧠+Learning+AI+%26+Machine+Learning;📍+Based+in+Rangpur,+Bangladesh" alt="Typing intro" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=badhonvitality&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
-<br />
-
-<div align="center">
-  <a href="https://github.com/badhonvitality">
-    <img src="https://github-readme-stats.vercel.app/api?username=badhonvitality&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/badhonvitality">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=badhonvitality&theme=radical&hide_border=true" alt="GitHub Streak" />
-  </a>
-</div>
-
-<br />
-
-### 👨‍💻 About Me
-
-I am an 18-year-old **Full Stack Developer** specializing in the MERN stack (MongoDB, Express, React/Next.js, Node.js). I have been building web systems since December 2021 and am currently expanding my skill set into **AI and Machine Learning**. 
-
-- 🎓 **Education:** SSC Completed | Certified Digital Marketer
-- 🎯 **Current Focus:** Deepening expertise in Next.js & AI integrations
-- 🌏 **Future Plans:** Moving to Japan in 2026 for AI/ML vocational studies
-- 📫 **How to reach me:** [badhonvitality@gmail.com](mailto:badhonvitality@gmail.com) | Discord: `@badhonvitality`
-
-<br />
-
-### 🛠️ Tech Stack & Arsenal
-
-<div align="center">
-  
-  **Frontend Architecture**<br>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,redux,framer,html,css&perline=8" />
-  
-  <br /><br />
-  
-  **Backend & Database**<br>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,postgres,prisma&perline=8" />
-  
-  <br /><br />
-  
-  **AI & Machine Learning (Currently Learning)**<br>
-  <img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch,opencv&perline=8" />
-  
-  <br /><br />
-
-  **Languages & Tools**<br>
-  <img src="https://skillicons.dev/icons?i=js,cs,cpp,git,github,linux,vscode,docker,postman&perline=9" />
-
-</div>
-
-<br />
-
-### 📈 Most Used Languages
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=badhonvitality&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&duration=1200&pause=200&color=00FF9C&center=true&vCenter=true&width=1000&lines=0101010010010110100101101001011010010110100101101001011010010110" alt="Matrix divider" />
-  <p><code>[system] status: online</code> • <code>[system] signal: secure</code> • <code>[system] last_sync: ready for new missions</code></p>
-</div>
+<br/>
+<p align="center">
+  <code>[system] status: online</code> &nbsp;•&nbsp; <code>[system] location: Rangpur, BD</code> &nbsp;•&nbsp; <code>[system] last_sync: ready</code>
+</p>

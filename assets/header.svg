@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF9C" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <style>
+      .title { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 38px; font-weight: 800; fill: url(#textGrad); }
+      .subtitle { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 16px; font-weight: 500; fill: #A3B1C6; letter-spacing: 2px; }
+      .code { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 12px; fill: #00E5FF; opacity: 0.35; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      .cursor { animation: blink 1s infinite; fill: #00FF9C; }
+      @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-5px); } }
+      .floating { animation: float 6s ease-in-out infinite; }
+      @keyframes pulse { 0% { transform: scale(0.95); opacity: 0.5; } 50% { transform: scale(1.05); opacity: 0.8; } 100% { transform: scale(0.95); opacity: 0.5; } }
+      .pulser { transform-origin: center; animation: pulse 4s infinite; }
+    </style>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#05080F" rx="8" />
+  
+  <!-- Ambient Glow -->
+  <circle cx="400" cy="125" r="300" fill="url(#glow)" class="pulser" />
+  
+  <!-- Background Grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <path d="M 0 50 L 800 50 M 0 100 L 800 100 M 0 150 L 800 150 M 0 200 L 800 200" />
+    <path d="M 100 0 L 100 250 M 200 0 L 200 250 M 300 0 L 300 250 M 400 0 L 400 250 M 500 0 L 500 250 M 600 0 L 600 250 M 700 0 L 700 250" />
+  </g>
+  
+  <!-- Left Side Code Block (Animated) -->
+  <g class="code" transform="translate(30, 40)">
+    <text y="0">const badhon = {</text>
+    <text y="20">  role: "Full-Stack Dev",</text>
+    <text y="40">  stack: ["MERN", "Next.js"],</text>
+    <text y="60">  location: "Bangladesh"</text>
+    <text y="80">};</text>
+    <text y="100" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" />
+      badhon.initialize();
+    </text>
+  </g>
+  
+  <!-- Right Side HUD elements -->
+  <g transform="translate(680, 50)" stroke="#00FF9C" fill="none" stroke-width="1">
+    <circle cx="50" cy="50" r="30" stroke-dasharray="10 5" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="50" cy="50" r="20" stroke="#00E5FF" stroke-dasharray="20 10" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <path d="M 50 15 L 50 25 M 50 75 L 50 85 M 15 50 L 25 50 M 75 50 L 85 50" stroke="#00E5FF" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(680, 150)" stroke="#00FF9C" fill="none" stroke-width="1" opacity="0.3">
+     <rect x="10" y="10" width="80" height="20" />
+     <rect x="10" y="40" width="60" height="20" />
+     <rect x="15" y="15" width="20" height="10" fill="#00FF9C">
+        <animate attributeName="width" values="0;70;0" dur="3s" repeatCount="indefinite" />
+     </rect>
+  </g>
+
+  <!-- Center Content -->
+  <g transform="translate(400, 120)" text-anchor="middle" class="floating">
+    <text y="-10" class="title">Tanjim Rahat Badhon</text>
+    <text y="25" class="subtitle">Full-Stack MERN Developer<tspan class="cursor">_</tspan></text>
+  </g>
+
+  <!-- Decorative Corner Corners -->
+  <path d="M 10 30 L 10 10 L 30 10" fill="none" stroke="#00E5FF" stroke-width="2" />
+  <path d="M 790 30 L 790 10 L 770 10" fill="none" stroke="#00E5FF" stroke-width="2" />
+  <path d="M 10 220 L 10 240 L 30 240" fill="none" stroke="#00E5FF" stroke-width="2" />
+  <path d="M 790 220 L 790 240 L 770 240" fill="none" stroke="#00E5FF" stroke-width="2" />
+</svg>
